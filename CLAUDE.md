@@ -11,9 +11,15 @@ that to the user and ask if they want to populate it.
 
 ## Sync instructions
 
-The full sync prompt is in `SYNC_PROMPT.md`. Follow it when the user asks to sync or update
-their memory.
+- Automated daily sync: `DAILY_SYNC_PROMPT.md`, run by the scheduled task "Claude memory —
+  daily sync" at 05:45 Europe/London. Follow it when asked to "run the daily sync".
+- Manual, interactive sync: `SYNC_PROMPT.md`. Follow it when the user asks to sync or update
+  their memory by hand.
+
+Raw transcripts are archived in Google Drive (`Claude/Transcripts-archive/`), never in this
+repo. This repo holds summaries only; see "What never goes into GitHub" in
+`DAILY_SYNC_PROMPT.md`.
 
 ## Branch
 
-Development happens on `claude/setup-memory-sync-rE9mG`. Always commit and push to that branch.
+`claude/setup-memory-sync-rE9mG` is the default branch. Always commit and push to it.

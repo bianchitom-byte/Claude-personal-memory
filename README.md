@@ -33,9 +33,20 @@ This repo preserves context so any Claude instance (or other AI) can pick up whe
 2. If working on a specific project, also paste `projects/<slug>/overview.md` and `projects/<slug>/context.md`.
 3. For recent activity, paste `memories/current.md`.
 
-### Syncing after a session
+### Automatic daily sync
 
-Run this repo's sync prompt in Claude Code (web or CLI). Claude will:
+A scheduled task runs `DAILY_SYNC_PROMPT.md` every day at 05:45 UK time. It:
+- summarises every Claude Code session and scheduled-task run from the past day into `chats/`
+- pulls claude.ai and Cowork summaries saved to Notion Memory
+- saves a cleaned raw transcript of each session to Google Drive, `Claude/Transcripts-archive/`
+- updates `memories/current.md`, project overviews and `CHANGELOG.md`, then pushes
+
+A weekly job on the Mac mini copies the Drive archive and this repo to BIA-NAS
+(`/Volumes/Archive/Claude-backup/`).
+
+### Syncing by hand
+
+Run `SYNC_PROMPT.md` in Claude Code (web or CLI). Claude will:
 1. Ask what's new since the last sync.
 2. Update `memories/current.md` (archiving the previous version).
 3. Update any relevant project files.
