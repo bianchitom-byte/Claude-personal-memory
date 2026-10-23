@@ -45,3 +45,10 @@ All sync runs are recorded here in reverse-chronological order.
 - Created stub `profile.md` (awaiting user population).
 - Created initial `memories/current.md`.
 - No projects or chats recorded yet.
+
+## 2026-10-23 — daily sync (partial, no sessions processed)
+
+- Session-listing tools (`list_sessions`, `list_events`, `list_triggers`) were not available in this session (Claude Code Remote connector not attached), so Claude Code sessions and scheduled-task runs could not be read.
+- Notion Memory was reachable but empty (no entries).
+- No Drive or summary files written. `last_run_utc` left unchanged.
+- Fix: add the Claude Code Remote connector to the "Claude memory — daily sync" task's settings.
