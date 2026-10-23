@@ -70,4 +70,4 @@ Run `SYNC_PROMPT.md` in Claude Code (web or CLI). Claude will:
 
 ## Last synced
 
-2026-05-13
+2026-10-23

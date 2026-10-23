@@ -1,7 +1,19 @@
 {
-  "last_run_utc": null,
+  "last_run_utc": "2026-10-23T15:40:00Z",
   "drive_archive_folder_id": "1Luee-pAb8RWVKvb8u5Gmy8NgUlhl_E06",
-  "drive_month_folders": {},
-  "sessions": {},
-  "pending_drive": []
+  "drive_month_folders": {
+    "2026-10": "16U2kE6g_AAl8jLYFsI1wkpWVviZr29iA"
+  },
+  "sessions": {
+    "session_01UsopodihV7EVtbDkwnwV5E": {"title": "Native Xbox Live app for macOS", "drive_file_id": "1cbOEGJ1x1A8dGy2ADHV-nvb-j5w1DVCi", "archived_through": "2026-10-18T17:00:53Z"},
+    "session_011a3aUuRvrWpwMmNS7dpAzQ": {"title": "NAS migration status check", "drive_file_id": "1RQ7zaqGP-T4_xoZ7VqmfCHShwrqjQ2ju", "archived_through": "2026-10-19T22:57:40Z"},
+    "session_01DQYAi55h3P3k5GSiWxckgy": {"title": "Life-OS agent testing issue", "drive_file_id": "1xV94PB7vVsZe4Macdi8rwUX_6J3CXDUO", "archived_through": "2026-10-23T15:30:47Z"},
+    "session_01HFg1JitFdhcSdbkHF8tkw7": {"title": "Personal work memory storage", "drive_file_id": "1EU5ZcTGSxxN8lLeWekDYTAPHPWs4WOPH", "archived_through": "2026-10-23T15:34:12Z"}
+  },
+  "pending_drive": [],
+  "backfill_pending": [
+    "session_01DQYAi55h3P3k5GSiWxckgy (2026-09-24 to 2026-09-28 part)",
+    "session_01TaU1gaEsAuNxwqHpy4L7tN (Notion Life OS integration with Jarvis, 2026-09-25/26)",
+    "session_013u9HnnSHNdRzGZ9dSQfNdP (Jarvis voice service, 2026-09-25)"
+  ]
 }

@@ -4,6 +4,21 @@ All sync runs are recorded here in reverse-chronological order.
 
 ---
 
+## 2026-10-23 — Daily sync (manual test run, 4 sessions)
+
+- Scheduled run at 04:46 UTC failed: no repo access (push 403) and no session-listing tools.
+- Ran the sync by hand from the setup session, window 2026-10-18 → 2026-10-23.
+- Sessions: Xbox app for macOS; NAS migration; Life OS / Jarvis status; memory sync setup.
+- 4 cleaned transcripts uploaded to Drive `Claude/Transcripts-archive/2026-10/`.
+- Summaries in `chats/2026-10/`; scheduled-task runs logged as one-liners.
+- `memories/current.md` rewritten (old snapshot archived to `memories/archive/2026-05-13.md`);
+  `personal-life-admin` and `smart-home` overviews filled in.
+- Notion Memory empty: no claude.ai/Cowork summaries yet.
+- Not done: September sessions (backfill listed in `sync-state.json`).
+- `DAILY_SYNC_PROMPT.md`: paging by inner timestamp, condensed tool lines, scheduled runs as one-liners.
+
+---
+
 ## 2026-10-19 — Automated daily sync
 
 - Added `DAILY_SYNC_PROMPT.md` and `sync-state.json` for a daily scheduled sync at 05:45 UK.
