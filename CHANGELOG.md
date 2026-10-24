@@ -52,3 +52,10 @@ All sync runs are recorded here in reverse-chronological order.
 - Notion Memory was reachable but empty (no entries).
 - No Drive or summary files written. `last_run_utc` left unchanged.
 - Fix: add the Claude Code Remote connector to the "Claude memory — daily sync" task's settings.
+
+## 2026-10-24 — daily sync (partial, no sessions processed)
+
+- Same gap as 2026-10-23: `list_sessions`, `list_events` and `list_triggers` were not available (Claude Code Remote connector tools not exposed), so Claude Code sessions and scheduled-task runs could not be read.
+- Notion Memory was reachable but still empty.
+- No Drive or summary files written. `last_run_utc` left unchanged.
+- Fix still outstanding: attach the Claude Code Remote connector in the task's settings.
