@@ -4,6 +4,13 @@ All sync runs are recorded here in reverse-chronological order.
 
 ---
 
+## 2026-11-01 — Daily sync (failed: no session-listing tools)
+
+- list_sessions, list_events and list_triggers were not available in this session, so Claude Code sessions and scheduled-task runs could not be read.
+- Notion Memory is empty (no claude.ai/Cowork entries to collect).
+- No Drive or summary writes made. `last_run_utc` left unchanged (2026-10-23T15:40:00Z), so the next run covers the gap.
+- Needs fixing: add the Claude Code Remote connector to the scheduled task's settings.
+
 ## 2026-10-23 — Daily sync (manual test run, 4 sessions)
 
 - Scheduled run at 04:46 UTC failed: no repo access (push 403) and no session-listing tools.
