@@ -114,3 +114,9 @@ All sync runs are recorded here in reverse-chronological order.
 - Notion Memory: reachable, but empty.
 - Drive: no writes this run.
 - Fix still outstanding: attach the Claude Code Remote connector in the task's settings.
+
+## 2026-11-02 — daily sync (incomplete)
+
+- No sessions processed. The Claude Code session tools (`list_sessions`, `list_events`, `list_triggers`) were not available in this run; the GitHub MCP server also failed to connect.
+- Notion Memory is empty (no entries to collect).
+- Drive not touched. `last_run_utc` left unchanged (2026-10-23T15:40:00Z), so the next run will cover the full gap.
