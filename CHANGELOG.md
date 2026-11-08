@@ -153,3 +153,9 @@ All sync runs are recorded here in reverse-chronological order.
 - Notion Memory: reachable but empty (no memories saved), so no claude.ai/Cowork entries to process.
 - Google Drive: no writes attempted (no sessions to archive).
 - `last_run_utc` left unchanged (2026-10-23T15:40:00Z); next run will cover the full window.
+
+## 2026-11-08 — daily sync (incomplete)
+
+- Gap: session-listing tools (`list_sessions`, `list_events`, `list_triggers`) not available again; Claude Code sessions and scheduled-task runs not read.
+- Notion Memory: reachable but empty; nothing to process.
+- No Drive writes. `last_run_utc` left unchanged (2026-10-23T15:40:00Z). Seventh consecutive missed run; fix is to attach the Claude Code Remote session-listing tools in the scheduled task's settings.
