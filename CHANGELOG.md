@@ -189,3 +189,9 @@ All sync runs are recorded here in reverse-chronological order.
 - Gap: session-listing tools (`list_sessions`, `list_events`, `list_triggers`) not available again; sessions and scheduled-task runs not read.
 - Notion Memory: reachable but empty; nothing to process.
 - No Drive writes. `last_run_utc` left unchanged (2026-10-23T15:40:00Z). Twelfth consecutive missed run.
+
+## 2026-11-14 — daily sync (incomplete)
+
+- Gap: session-listing tools (`list_sessions`, `list_events`, `list_triggers`) not available again; sessions and scheduled-task runs not read.
+- Notion Memory: reachable but empty; nothing to process.
+- No Drive writes. `last_run_utc` left unchanged (2026-10-23T15:40:00Z). Thirteenth consecutive missed run.
