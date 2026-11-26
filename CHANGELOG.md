@@ -261,3 +261,10 @@ All sync runs are recorded here in reverse-chronological order.
 - Gap: session-listing tools (`list_sessions`, `list_events`, `list_triggers`) not available again; sessions and scheduled-task runs not read.
 - Notion Memory: reachable but empty; nothing to process.
 - No Drive writes. `last_run_utc` left unchanged (2026-10-23T15:40:00Z). Twenty-fourth consecutive missed run.
+
+## 2026-11-26 — daily sync (incomplete)
+
+- Gap: session-listing tools (`list_sessions`, `list_events`, `list_triggers`) not available again; Claude Code sessions and scheduled-task runs not read.
+- Notion Memory: 1 new entry processed — "2025/26 tax return pack for Andy" (2026-11-24) → `chats/2026-11/2026-11-24-tax-return-pack-for-andy.md`.
+- `memories/current.md` updated (previous archived to `memories/archive/2026-10-23.md`).
+- No Drive writes. `last_run_utc` left unchanged (2026-10-23T15:40:00Z). Twenty-fifth consecutive run without session tools.

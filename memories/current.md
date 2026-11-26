@@ -3,11 +3,12 @@
 > Rolling summary of active context. Paste into a new Claude session to restore recent state.
 > Updated each sync run; previous version archived to `memories/archive/`.
 
-**Snapshot date:** 2026-10-23
-**Previous snapshot:** 2026-05-13 (`memories/archive/2026-05-13.md`)
+**Snapshot date:** 2026-11-26
+**Previous snapshot:** 2026-10-23 (`memories/archive/2026-10-23.md`)
 
 ## Recent Activity
 
+- 2026-11-24: gathered 2025/26 Self Assessment documents for accountant Andy (The Tax Hive); several gaps remain. ([summary](../chats/2026-11/2026-11-24-tax-return-pack-for-andy.md))
 - 2026-10-18–20: finished migrating the WD MyBook to BIA-NAS; WD decommissioned 2026-10-19. ([summary](../chats/2026-10/2026-10-19-nas-migration-status-check.md))
 - 2026-10-18: asked about a native Xbox Cloud Gaming client for macOS; Greenlight recommended. ([summary](../chats/2026-10/2026-10-18-native-xbox-live-app-for-macos.md))
 - 2026-10-19–23: set up the automated Claude memory sync (GitHub summaries, Drive transcripts, weekly NAS copy). ([summary](../chats/2026-10/2026-10-19-personal-work-memory-storage.md))
@@ -22,6 +23,7 @@
 
 ## Open Threads / Decisions Pending
 
+- **2025/26 tax return:** download iCloud placeholders on the Mac; still need E*Trade gains/losses and vest confirmations, 25/26 bank interest, payments on account, Emma's P60 and UTR; upload via Andy's portal.
 - **Jarvis or cloud?** Tom to pick which chief-of-staff system is live; first run `claude auth login` on the Mac mini.
 - Jarvis launchd schedule fix waiting on Tom (remove git lock file, reload jobs).
 - Memory sync task needs this repo added as a source and the Claude Code Remote connector, in the scheduled task's settings.
@@ -36,5 +38,7 @@
 - `profile.md` is still an empty template.
 
 ## Notes for Next Sync
+
+- Session-listing tools have been missing since late October; Claude Code sessions from 2026-10-23 onwards are not yet archived. Re-run once the Claude Code Remote connector is available.
 
 - Update the "Personal work memory storage" Drive transcript (session still open on 2026-10-23).
