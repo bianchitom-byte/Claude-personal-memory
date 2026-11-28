@@ -274,3 +274,9 @@ All sync runs are recorded here in reverse-chronological order.
 - Gap: session-listing tools (`list_sessions`, `list_events`, `list_triggers`) not available again; Claude Code sessions and scheduled-task runs not read.
 - Notion Memory: no new entries since 2026-11-24 (already processed).
 - No Drive writes. `last_run_utc` left unchanged (2026-10-23T15:40:00Z). Twenty-sixth consecutive run without session tools.
+
+## 2026-11-28 — daily sync (incomplete)
+
+- Gap: session-listing tools (`list_sessions`, `list_events`, `list_triggers`) not available again; Claude Code sessions and scheduled-task runs not read.
+- Notion Memory: no new entries since 2026-11-24 (already processed).
+- No Drive writes. `last_run_utc` left unchanged (2026-10-23T15:40:00Z). Twenty-seventh consecutive run without session tools.
